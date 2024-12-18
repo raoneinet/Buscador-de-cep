@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #cecece;
+}
+
+.container{
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.instructions{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+input, button{
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cep--five-number{
+    width: 120px;
+}
+
+.cep--three-number{
+    width: 80px;
+}
+
+.result{
+    padding: 20px 0 20px 0;
+}
+
+@media screen and (max-width: 400px){
+    .container{
+        align-items: flex-start;
+    }
+    
+    .search{
+        display: flex;
+        flex-direction: column;
+    }
+    .cep--five-number, .cep--three-number, button{
+        width: 150px;
+        margin-top: 10px;
+    }
+}
