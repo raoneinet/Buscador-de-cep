@@ -1,13 +1,37 @@
-# Buscador-de-cep
-Sistema de busca de cep brasileiro
+# 📍 Buscador de CEP
 
-Retorno:
-Endereço;
-Cidade;
-Estado;
-Código de telefone do estado.
+Aplicação web para consulta de **endereços brasileiros** a partir de um **CEP informado pelo usuário**, utilizando a **API pública da [AwesomeAPI - CEP](https://docs.awesomeapi.com.br/api-cep)**.
 
-API usada: https://docs.awesomeapi.com.br/api-cep
+---
+
+## 🔍 Funcionalidades
+
+- ✅ Busca de informações por **CEP brasileiro**;
+- 📦 Retorna:
+  - Endereço completo
+  - Cidade
+  - Estado (UF)
+  - Código de telefone do estado (DDD)
+- ⚡ Requisições rápidas usando `Fetch API`;
+- 📱 Interface **responsiva** e fácil de usar.
+
+---
+
+## 🔗 API utilizada
+
+- **AwesomeAPI – CEP**  
+  📄 [Documentação oficial](https://docs.awesomeapi.com.br/api-cep)
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- HTML5  
+- CSS3  
+- JavaScript  
+- AwesomeAPI - CEP
+
+---
 
 ![Buscador-de-Endereço-12-18-2024_09_08_PM](https://github.com/user-attachments/assets/831eb405-9ed8-453d-98e9-45af9fb797d3)
 
